@@ -1,0 +1,58 @@
+1599383302217	geckodriver	INFO	Listening on 127.0.0.1:25538
+1599383305393	mozrunner::runner	INFO	Running command: "C:\\P1599383306435	mozrunner::runner	INFO	Running command: "C:\\P1599383306830	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe1599383313086	addons.webextension.doh-rollout@mozilla.org	WA1599383313087	addons.webextension.doh-rollout@mozilla.org	WA1599383313088	addons.webextension.doh-rollout@mozil1599383316307	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1599383316312	addons.webextension.screenshots@mozilla.org	WA1599383316312	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org':1599383316313	addons.webextension.screenshots@mozilla.org	WA1599383316313	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Readin
+1599383316328	addons.webextension.screenshots@mozilla.org	WA1599383316328	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': ReaJavaScript error: resource://gre/modules/XULStore.jsm, line JavaScript error: resource://gre/modules/X1599383366392	Marionette	INFO	Listening on port 25602
+1599383367547	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599383377629	Marionette	INFO	Stopped listening on port 25602
+console.error: services.settings: 
+  Message: TypeError:1599383379411	Marionette	INFO	Stopped listening on port 25615
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ttings: main/cfr-fxa sync interrupted by shutdown
+console.warn: services.settings: main/public-suffix-list sync interrupted by shutdown
+console.warn: services.settings: main/hijack-blocklists sync interrupted by shutdown
+console.warn: services.settings: main/language-dictionaries sync interrupted by shutdown
+console.warn: services.settings: main/anti-tracking-url-decoration sync interrupted by shutdown
+console.warn: services.settings: main/sites-classification sync interrupted by shutdown
+console.warn: services.settings: pinning/pins sync interrupted by shutdown
+console.warn: services.settings: blocklists/gfx sync interrupted by shutdown
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+nc interrupted by shutdown
+console.warn: services.settings: main/anti-tracking-url-decoration sync interrupted by shutdown
+console.warn: services.settings: main/sites-classification sync interrupted by shutdown
+console.warn: services.settings: pinning/pins sync interrupted by shutdown
+console.warn: services.settings: blocklists/gfx sync interrupted by shutdown
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: TypeError: NetworkError when attempting to fetch resource.
+  Stack:
+    [13]</timedFetch/<@resource://services-common/kinto-http-client.js:2899:12
+timedFetch@resource://services-common/kinto-http-client.js:2869:12
+request@resource://services-common/kinto-http-client.js:2980:33
+execute@resource://services-common/kinto-http-client.js:813:36
+getData@resource://services-common/kinto-http-client.js:2065:27
+_importChanges@resource://services-settings/RemoteSettingsClient.jsm:776:14
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:496:35
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
